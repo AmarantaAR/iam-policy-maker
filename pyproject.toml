@@ -1,0 +1,14 @@
+[project]
+name = "iam-policy-generator"
+version = "0.1.0"
+description = "A CLI tool to generate AWS IAM policies."
+authors = [
+    { name = "Amaranta", email = "amaranta.agni@gmail.com" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "typer==0.9.0"
+]
+
+[project.scripts]
+iamgen = "iam_policy_generator.cli:app"
