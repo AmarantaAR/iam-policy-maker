@@ -10,7 +10,7 @@ iam-policy-generator/
 ├── iam_policy_generator/      # Core CLI logic
 ├── examples/                  # Sample output policies
 ├── tests/                     # Pytest tests
-├── terraform-module/          # Optional Terraform integration (if needed)
+├── terraform_module/          # Optional Terraform integration (if needed)
 ├── README.md
 ├── LICENSE
 ├── Makefile
