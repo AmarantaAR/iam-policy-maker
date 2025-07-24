@@ -12,7 +12,7 @@ This module lets you create an IAM policy in AWS from a previously generated JSO
 ## 🚀 Example
 ```hcl
 module "iam_policy" {
-  source       = "../terraform-module"
+  source       = "../terraform_module"
   policy_name  = "my-lambda-policy"
   policy_path  = "./policy.json"
 }
